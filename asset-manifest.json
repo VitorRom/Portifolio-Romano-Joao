@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portifolio-Romano-Joao/static/css/main.62f284eb.css",
+    "main.js": "/Portifolio-Romano-Joao/static/js/main.8024d3a6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portifolio-Romano-Joao/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/Portifolio-Romano-Joao/index.html",
+    "main.62f284eb.css.map": "/Portifolio-Romano-Joao/static/css/main.62f284eb.css.map",
+    "main.8024d3a6.js.map": "/Portifolio-Romano-Joao/static/js/main.8024d3a6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portifolio-Romano-Joao/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62f284eb.css",
+    "static/js/main.8024d3a6.js"
+  ]
+}
