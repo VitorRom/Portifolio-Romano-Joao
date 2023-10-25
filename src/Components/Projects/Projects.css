@@ -1,0 +1,103 @@
+.projetos-portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-sections.projetos {
+    display: flex;
+    width: 1190px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-projetos {
+    margin-top: 30px !important;
+    margin-bottom: 0px !important;
+    font-size: 2.2rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .card-container {
+    max-width: 335px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height:470px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0rem 0rem 1rem #ccc;
+  }
+  
+  .card-container h2 {
+    font-size: 1.6rem !important;
+    padding: 10px;
+    margin-bottom: 14px !important;
+    margin-top: 14px !important;
+    color: #444040;
+    font-weight: 200 !important;
+  }
+  
+  .card {
+    width: 250px;
+    height: 158px ;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card img {
+    width: 101%;
+    height: 125% !important;
+  
+  }
+  
+  .card:hover {
+    transform: scale3d(1.2, 1.2, 2);
+  }
+  
+  .card-content {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    color: #444040;
+  }
+  
+  .card-content p {
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 0.92rem;
+    word-spacing: .1px;
+  }
+  
+  .btn-projetos {
+    margin: 0px 0px 15px 0px;
+  }
+  
+  .btn-projetos:hover {
+    background-color: rgb(228, 228, 228);
+    transition: .3s all ease;
+  }
+  

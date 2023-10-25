@@ -1,0 +1,52 @@
+.container-sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  .container-sections h1,
+.container-sections h2, .projetos-portfolio h2, .contato h2{
+  font-size: 2.2rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 70px;
+  margin-top: 130px;
+  color: #444040;
+  font-weight: 100 !important;
+}
+
+.txt-sobre-mim {
+    font-size: 1.25rem;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    width: 1150px;
+    margin-bottom: 50px;
+  }
+
+ 
+.logo-tecnologias {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  
+  .logo-tecnologias img {
+    height: 73px;
+  }
+  
+  .logo-tecnologias img:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  
+  .logo-angular img {
+    width: 90%;
+  }
+  
+  .logo-react img {
+    height: 66px;
+    margin-top: 3px;
+  }
