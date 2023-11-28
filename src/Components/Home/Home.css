@@ -100,4 +100,17 @@
     height: 97%;
     width: 97%;
   }
+
+  @media(max-height: 650px){
+    .container-pai{
+      margin: 150px 0px 100px 0px;
+    }
+  }
+
+  @media(max-width: 1300px){
+    .container{
+      margin-left: 50px;
+      width: 600px;
+    }
+  }
   

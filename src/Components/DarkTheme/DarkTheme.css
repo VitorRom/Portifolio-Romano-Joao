@@ -103,7 +103,7 @@ body[data-theme="dark"] .btn {
 }
 
 body[data-theme="dark"] .btn::before {
-  background-color: #5f65697c;
+  background-color: rgba(75, 75, 75, 0.486);
 }
 
 body[data-theme="dark"] .btn-projetos:hover {
@@ -126,4 +126,18 @@ body[data-theme="dark"] .lista-footer a {
 body[data-theme="dark"] footer p,
 body[data-theme="dark"] footer p span {
   color: #797979 !important;
+}
+
+body[data-theme="dark"] .portfolio-form{
+  background-color: #242d35;
+  color: white;
+}
+
+body[data-theme="dark"] .portfolio-form button{
+  background-color: rgb(114, 114, 114);
+  color: rgb(255, 255, 255);
+}
+
+body[data-theme="dark"] .portfolio-form button:hover{
+  background-color: rgb(155, 155, 155);
 }

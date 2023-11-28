@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Footer.css';
+import { Link } from 'react-scroll';
 import { faWhatsapp, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -11,6 +12,19 @@ const Footer = () => {
         const dt = new Date();
         setYear(dt.getFullYear());
     }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    
+    const preventDefaultClick = (e) => {
+        e.preventDefault();
+        scrollToTop();
+    }
+
 
     return (
         <footer>
@@ -26,17 +40,40 @@ const Footer = () => {
                 </a>
             </div>
             <ul className="lista-footer">
-                <li className="home">
-                    <a href="#inicio">Home</a>
+                <li>
+                    <a href="#" onClick={preventDefaultClick}>
+                        Home
+                    </a>
                 </li>
                 <li>
-                    <a href="#sobre-mim">Sobre mim</a>
+                    <Link to="sobre"
+                        spy={true}
+                        smooth={true}
+                        hashSpy={true}
+                        offset={50}
+                        duration={800}>
+                        Sobre
+                    </Link>
                 </li>
                 <li>
-                    <a href="#projetos">Projetos</a>
+                    <Link to="projetos"
+                        spy={true}
+                        smooth={true}
+                        hashSpy={true}
+                        offset={50}
+                        duration={800}>
+                        Projetos
+                    </Link>
                 </li>
                 <li>
-                    <a href="#contato">Contato</a>
+                    <Link to="contato"
+                        spy={true}
+                        smooth={true}
+                        hashSpy={true}
+                        offset={50}
+                        duration={800}>
+                        Contato
+                    </Link>
                 </li>
             </ul>
             <p>João Romano - <span>{year}</span></p>

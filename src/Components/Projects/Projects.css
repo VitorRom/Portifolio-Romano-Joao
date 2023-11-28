@@ -12,6 +12,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 60px 5%;
+
   }
   
   .title-projetos {
@@ -26,8 +28,6 @@
   
   .card-container {
     max-width: 335px;
-    margin-left: 2%;
-    margin-right: 2%;
     height:470px;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,8 @@
     overflow: hidden;
     box-shadow: 0rem 0rem 1rem #ccc;
   }
+
+
   
   .card-container h2 {
     font-size: 1.6rem !important;
@@ -72,7 +74,7 @@
   }
   
   .card:hover {
-    transform: scale3d(1.2, 1.2, 2);
+    transform: scale3d(1.1, 1.1, 2);
   }
   
   .card-content {
