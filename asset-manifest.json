@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portifolio-Romano-Joao/static/css/main.c5cb1b0a.css",
-    "main.js": "/Portifolio-Romano-Joao/static/js/main.af2cecc1.js",
+    "main.css": "/Portifolio-Romano-Joao/static/css/main.69685f68.css",
+    "main.js": "/Portifolio-Romano-Joao/static/js/main.a224dc1a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portifolio-Romano-Joao/static/js/787.1ed0c42c.chunk.js",
     "index.html": "/Portifolio-Romano-Joao/index.html",
-    "main.c5cb1b0a.css.map": "/Portifolio-Romano-Joao/static/css/main.c5cb1b0a.css.map",
-    "main.af2cecc1.js.map": "/Portifolio-Romano-Joao/static/js/main.af2cecc1.js.map",
+    "main.69685f68.css.map": "/Portifolio-Romano-Joao/static/css/main.69685f68.css.map",
+    "main.a224dc1a.js.map": "/Portifolio-Romano-Joao/static/js/main.a224dc1a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portifolio-Romano-Joao/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5cb1b0a.css",
-    "static/js/main.af2cecc1.js"
+    "static/css/main.69685f68.css",
+    "static/js/main.a224dc1a.js"
   ]
 }
