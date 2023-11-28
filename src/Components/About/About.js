@@ -4,7 +4,7 @@ const About = () =>{
     return(
         <section className="container-sobre-mim" id='sobre'>
     <div className="sobre-mim">
-      <div className='container-sections'>
+      <div className='container-sections sobre-mim'>
         <div className="espaco-fantasma"></div>
         <h1>João Romano</h1>
         <p className="txt-sobre-mim">Olá &#x1F44B;, meu nome é João Romano, sou estudante de Análise e Desenvolvimento de

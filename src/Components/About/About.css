@@ -2,9 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
-
+.sobre-mim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
   .container-sections h1,
 .container-sections h2, .projetos-portfolio h2, .contato h2{
@@ -21,8 +27,13 @@
     font-size: 1.25rem;
     line-height: 23px;
     letter-spacing: 0.2px;
-    width: 1150px;
+    width: 73%;
+    text-align: center;
     margin-bottom: 50px;
+  }
+
+  .txt-sobre-mim p{
+    width: 80%;
   }
 
  
@@ -50,3 +61,4 @@
     height: 66px;
     margin-top: 3px;
   }
+
